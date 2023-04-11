@@ -76,6 +76,6 @@ Will be coming soon.
 
 ### Citation:
 ```
-Li M, Long J, Stein A, et al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images[J]. ISPRS Journal of Photogrammetry and Remote Sensing.
+Li M, Long J, Stein A, et al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing.
 ```
 
