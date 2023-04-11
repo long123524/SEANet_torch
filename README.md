@@ -1,1 +1,1 @@
-# SEANet_torch
+# SEANet
