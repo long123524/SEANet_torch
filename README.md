@@ -1,6 +1,6 @@
 # SEANet
 
-Official Pytorch Code base for [Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images]
+Official Pytorch Code base for "Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images"
 
 [Project](https://github.com/long123524/SEANet_torch.git)
 
