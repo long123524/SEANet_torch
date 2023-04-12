@@ -8,6 +8,11 @@ Official Pytorch Code base for [Using a semantic edge-aware multi-task neural ne
 
 This paper aims to develop a semantic segmentation network for agricultural parcel delineation from remote sensing images, with particular attention to extracting parcels with regularized and closed boundaries. We build a semantic edge-aware multi-task neural network, called SEANet, to enhance the extraction of local and global features regarding the edge and of thematic information regarding agricultural parcels. Compared with conventional CNNs, SEANet fully uses semantic edge features at both the local and global levels, improving the geometric accuracy of agricultural parcel delineation.
 
+<p align="center">
+  <img src="imgs/SEANet.jpg" width="800"/>
+</p>
+
+
 ## Using the code:
 
 The code is stable while using Python 3.7.0, CUDA >=11.0
@@ -76,6 +81,5 @@ Will be coming soon.
 
 ### Citation:
 ```
-Li M, Long J, Stein A, et al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing.
+Li M, Long J, Stein A, et al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images[J]. ISPRS Journal of Photogrammetry and Remote Sensing.
 ```
-
