@@ -60,25 +60,28 @@ inputs
     |   ├── 003.tif
     |   ├── ...
     └── dist_contour
-    |   ├── 001.mat
-    |   ├── 002.mat
-    |   ├── 003.mat
+    |   ├── 001.tif
+    |   ├── 002.tif
+    |   ├── 003.tif
     └── ├── ...
 ```
 
-For test and validation datasets, the same structure as the above.
+For test datasets, the same structure as the above.
+
+## Pretrained weight
+
+VGG16: 链接：https://pan.baidu.com/s/1rdIWgc6DJbxMkuD3OkIoQA  提取码：01kq 
 
 ## Training and testing
 
 1. Train the model.
 ```
-Will be coming soon.
+python train.py
 ```
 2. Evaluate.
 ```
-Will be coming soon.
+python accuracy_evaluation.py
 ```
-
 ### Citation:
 ```
 Li M, Long J, Stein A, et al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 200: 24-40.

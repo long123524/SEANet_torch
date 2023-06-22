@@ -59,7 +59,7 @@ def TifCrop(TifPath, SavePath, CropSize, RepetitionRate):
     img = dataset_img.ReadAsArray(0, 0, width, height)  # 获取数据
 
     #  获取当前文件夹的文件个数len,并以len+1命名即将裁剪得到的图像
-    new_name = 0
+    new_name = 1
     #  裁剪图片,重复率为RepetitionRate
 
     for i in range(int((height - CropSize * RepetitionRate) / (CropSize * (1 - RepetitionRate)))):
@@ -114,13 +114,7 @@ def TifCrop(TifPath, SavePath, CropSize, RepetitionRate):
     new_name = new_name + 1
 
 
-
-
-# #  将影像1裁剪为重复率为0的256×256的数据集
-# TifCrop(img_path, img_save, range , rate)
-# TifCrop(label_path, label_save, range, rate)
-
-TifCrop(r"G:\BsiNet\cla_image\DM_image.tif",
-         r"G:\BsiNet\cla_image\image", 256, 0)
-TifCrop(r"G:\BsiNet\cla_image\yz_dm_truth.tif",
-             r"G:\BsiNet\cla_image\mask", 256, 0)
+TifCrop(r"D:\LJ2\SBA2\Denmark_yz\new_yz_dm\DM_image.tif",
+         r"D:\LJ2\SBA2\Denmark_yz\new_yz_dm\image", 256, 0.2)
+TifCrop(r"D:\LJ2\SBA2\Denmark_yz\new_yz_dm\yz_dm_truth.tif",
+             r"D:\LJ2\SBA2\Denmark_yz\new_yz_dm\mask", 256, 0.2)
