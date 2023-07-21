@@ -70,7 +70,8 @@ For test datasets, the same structure as the above.
 
 ## Pretrained weight
 
-VGG16: 链接：https://pan.baidu.com/s/1rdIWgc6DJbxMkuD3OkIoQA  提取码：01kq 
+VGG16: 链接1：https://pan.baidu.com/s/1rdIWgc6DJbxMkuD3OkIoQA  提取码：01kq 
+链接2：https://drive.google.com/file/d/1idlA55pLM4EPxWQUvuL0kRj1SHfF32ct/view?usp=drive_link
 
 ## Training and testing
 
