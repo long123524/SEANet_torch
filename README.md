@@ -34,7 +34,7 @@ tqdm
 ```
 
 ## Preprocessing
-Contour and Distance Maps are pre-computed and can be obtained from binary mask and contour. You can use matlab or python codes to obtain them.
+You can use the https://github.com/long123524/BsiNet-torch/blob/main/preprocess.py to obtain contour and distance maps.
 
 ## Data Format
 
