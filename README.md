@@ -73,6 +73,10 @@ For test datasets, the same structure as the above.
 VGG16: link1：https://pan.baidu.com/s/1rdIWgc6DJbxMkuD3OkIoQA  code：01kq 
 link2：https://drive.google.com/file/d/1idlA55pLM4EPxWQUvuL0kRj1SHfF32ct/view?usp=drive_link
 
+### Dataset
+A GF2 image (1m) is provided for scientific study: https://drive.google.com/file/d/1JZtRSxX5PaT3JCzvCLq2Jrt0CBXqZj7c/view?usp=drive_link 
+A corresponding partial field label is provided: https://drive.google.com/file/d/19OrVPkb0MkoaUvaax_9uvnJgSr_dcSSW/view?usp=sharing
+
 ## Training and testing
 
 1. Train the model.
@@ -84,6 +88,8 @@ python train.py
 python accuracy_evaluation.py
 ```
 ### Citation:
+If you find this work useful or interesting, please consider citing the following references.
 ```
-Li M, Long J, Stein A, et al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 200: 24-40.
+1. Li M, Long J, Stein A, et al. Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 200: 24-40.
+2. Long J, Li M, Wang X, et al. Delineation of agricultural fields using multi-task BsiNet from high-resolution satellite images. International Journal of Applied Earth Observation and Geoinformation, 2022, 112: 102871.
 ```
