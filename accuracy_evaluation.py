@@ -140,8 +140,8 @@ if __name__ == "__main__":
 
         predict_list = outputs1 + predict_2 + predict_3 + predict_4
 
-        pred = predict_list/4
-
+        pred = predict_list/4.
+        pred = torch.sigmoid(pred)
         outputs1 = pred.detach().cpu().numpy().squeeze()
         targets1 = targets1.detach().cpu().numpy().squeeze()
 
