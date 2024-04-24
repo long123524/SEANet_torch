@@ -2,7 +2,7 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import torch
 from torch.utils.data import DataLoader
-from dataset import DatasetImageMaskContourDist
+from dataset import DatasetImageMaskContourDist, Datasettest
 import glob
 from models import SEANet
 from tqdm import tqdm
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     device = torch.device(CUDA_SELECT if torch.cuda.is_available() else "cpu")
 
     val_file_names = glob.glob(val_path)
-    valLoader = DataLoader(DatasetImageMaskContourDist(val_file_names, args.distance_type))
+    valLoader = DataLoader(Datasettest(val_file_names, args.distance_type))
 
     if not os.path.exists(save_path):
         os.mkdir(save_path)
