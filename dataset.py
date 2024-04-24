@@ -11,6 +11,32 @@ import os
 
 
 
+
+class Datasettest(Dataset):
+
+    def __init__(self, file_names, distance_type):
+
+        self.file_names = file_names
+        self.distance_type = distance_type
+
+
+    def __len__(self):
+
+        return len(self.file_names)
+
+    def __getitem__(self, idx):
+
+        img_file_name = self.file_names[idx]
+        image = load_image(img_file_name)
+        #print(image.shape)
+        mask = load_mask(img_file_name)
+        #print(img_file_name)
+        contour = load_contour(img_file_name)
+        dist = load_distance(img_file_name, self.distance_type)
+
+        return img_file_name, image, mask, contour,  dist
+
+
 class DatasetImageMaskContourDist(Dataset):
 
     def __init__(self, dir, file_names, distance_type):
